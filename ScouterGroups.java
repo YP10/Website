@@ -1,3 +1,4 @@
+import java.util.Scanner;  
 
 public class ScouterGroups {
     private String nameOne;
@@ -5,6 +6,8 @@ public class ScouterGroups {
     private String nameThree;
 
     public ScouterGroups(String n1, String n2, String n3){
+
+        nameOne=n1;
         nameOne=n1;
         nameTwo=n2;
         nameThree=n3;
